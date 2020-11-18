@@ -1,0 +1,31 @@
+.title {
+	color: rgb(54, 69, 171);
+}
+
+.inputContact {
+	width: 300px;
+	border: 1px solid #444;
+	padding: 10px;
+}
+
+.label {
+	display: block;
+	font-size: 18px;
+}
+
+.input {
+	margin-bottom: 18px;
+}
+
+.input:focus {
+	margin-bottom: 20px;
+	outline: none;
+	border: rgba(161, 199, 242, 0.7);
+	border-radius: 1.5px;
+	box-shadow: 0px 0px 2px 3px rgba(161, 199, 242, 0.9);
+}
+
+.buttonAddContact {
+	display: block;
+	width: 150px;
+}

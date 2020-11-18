@@ -1,0 +1,25 @@
+.list {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	list-style: none;
+	padding: 0;
+}
+
+.item {
+	position: relative;
+	min-width: 300px;
+	padding: 10px;
+	margin: 2px;
+	box-shadow: 1px 1px 3px rgba(10, 10, 10, 0.7);
+	border-radius: 4px;
+}
+
+.buttonDelete {
+	position: absolute;
+	right: 10px;
+	color: #ffffff;
+	background-color: #e33;
+	border: none;
+	border-radius: 2px;
+}
